@@ -1,0 +1,94 @@
+.hidden {
+  display: none !important;
+}
+
+body {
+  background-size: cover;
+  color: white;
+}
+
+form#login-form {
+  display: inline-block;
+  border: none;
+  background: white;
+  height: 34px;
+  line-height: 30px;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+input {
+  height: 25px;
+  padding-left: 5px;
+  appearance: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #888888;
+  outline: none;
+}
+
+button {
+  appearance: none;
+  border: 0px;
+  background: transparent;
+}
+
+form#login-form button {
+  border: 1px solid #888888;
+  border-radius: 5px;
+  font-size: 11px;
+  height: 28px;
+  padding: 5px 8px;
+}
+form#login-form button:hover {
+  box-shadow: 0px 0px 8px 0px #afafaf;
+}
+
+h2#clock {
+  font-size: 180px;
+  text-align: center;
+}
+
+#todo-container {
+  display: inline-block;
+  width: 261px;
+  height: 250px;
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  background: white;
+  color: #2c2c2c;
+  padding: 11px;
+  font-size: 13px;
+  border: 1px solid #bbbbbb;
+}
+
+#todo-container h4 {
+  margin: 10px 0px 0px 5px;
+}
+
+#todo-form input {
+  width: 250px;
+}
+
+#todo-list {
+  list-style: decimal-leading-zero;
+  padding-inline-start: 30px;
+  margin-top: 5px;
+}
+
+#quote span {
+  display: block;
+  text-align: center;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+#weather {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  text-align: right;
+}
+#weather span {
+  display: block;
+}
